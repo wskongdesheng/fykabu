@@ -1,0 +1,252 @@
+<% content_for :stylesheet_includes do %>
+<style type="text/css">
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
+}
+.datelist{
+  position: relative;
+  height: 489px;
+  overflow: hidden;
+}
+.close{
+  color: #666;
+}
+.close:hover{
+  color: #333;
+}
+</style>
+<% end %>
+<% content_for :javascript_includes do %>
+<script type="text/javascript">
+$(document).ready(function(){
+  init();
+  window.setTimeout(function(){
+    $('.loading').hide(400);
+    $('#tabs').slideDown(800);
+  }, 400);
+});
+function getYearlist(project){
+  $('.loading').show(400);
+  $('.picture').hide(400);
+  $('.datelist').scrollTop(0);
+  $('.datelist').perfectScrollbar('destroy');
+  hideDatelist();
+  $.ajax({
+    url: '<%= yearlist_path %>',
+    type: 'GET',
+    data: {project: project},
+    dataType: 'json',
+    async: true,
+    error: function(e){
+      $('.loading').hide();
+      alertBox("Error!", '');
+    },
+    success: function(res){
+      $('.loading').hide();
+      if(res.status == 'success'){
+        var list = res.response;
+        var html = '';
+        for(var i=0;i<list.length;i++){
+          html += '<a href="#" class="list-group-item" onclick="getDatelist(\'' + project + '\', \'' + list[i] + '\'); return false;"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;' + list[i] + '</a>';
+        }
+        $('.datelist .list-group').html(html);
+        showDatelist();
+        if(list.length > 14){
+          $('.datelist').scrollTop(0);
+          $('.datelist').perfectScrollbar();
+        }
+      }else{
+        alertBox(res.message, '');
+      }
+    }
+  });
+}
+function getDatelist(project, path){
+  $('.loading').show(400);
+  $('.picture').hide(400);
+  $('.datelist').scrollTop(0);
+  $('.datelist').perfectScrollbar('destroy');
+  hideDatelist();
+  $.ajax({
+    url: '<%= datelist_path %>',
+    type: 'GET',
+    data: {project: project, path: path},
+    dataType: 'json',
+    async: true,
+    error: function(e){
+      $('.loading').hide();
+      alertBox("Error!", '');
+    },
+    success: function(res){
+      $('.loading').hide();
+      if(res.status == 'success'){
+        var list = res.response;
+        var html = '<a href="#" class="list-group-item" onclick="getYearlist(\'' + project + '\'); return false;"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Back</a>';
+        for(var i=0;i<list.length;i++){
+          html += '<a href="#" class="list-group-item" onclick="getPictures(this, \'' + project + '\', \'' + list[i] + '\'); return false;"><span class="glyphicon glyphicon-th"></span>&nbsp;&nbsp;' + list[i] + '</a>';
+        }
+        $('.datelist .list-group').html(html);
+        showDatelist();
+        if(list.length > 14){
+          $('.datelist').scrollTop(0);
+          $('.datelist').perfectScrollbar();
+        }
+      }else{
+        alertBox(res.message, '');
+      }
+    }
+  });
+}
+function hideDatelist(){
+  $('.datelist .list-group').html('');
+  $('.datelist').hide();
+}
+function showDatelist(){
+  $('.datelist').show(600);
+  init();
+}
+function init(){
+  $('a').focus(function(){
+    $(this).blur();
+  });
+}
+var no_picture = '<%= image_tag "blank.jpg", :alt => "No Picture" %>';
+function getPictures(obj, project, datetime){
+  $(obj).parent().find('a').removeClass('active');
+  $(obj).addClass('active');
+  $('.loading').show(400);
+  $('.picture').hide(400);
+  $.ajax({
+    url: '<%= picture_path %>',
+    type: 'GET',
+    data: {project: project, datetime: datetime},
+    dataType: 'json',
+    async: true,
+    error: function(e){
+      $('.loading').hide(400);
+      alertBox("Error!", '');
+    },
+    success: function(res){
+      $('.loading').hide(400);
+      if(res.status == 'success'){
+        var resp = res.response;
+        var files = resp.files;
+        var pics = resp.pics;
+        var numbers = '';
+        var items = '';
+        var html = '';
+        if(pics.length == 0){
+          $('.picture .picture_list').html('<div class="thumbnail">' + no_picture + '</div>');
+        }else{
+          for(var i=0;i<pics.length;i++){
+            if(i == 0){
+              numbers += '<li data-target="#carousel-picture" data-slide-to="' + i + '" class="active"></li>';
+              items += '<div class="item active"><img src="' + pics[i] + '" alt=""></div>';
+            }else{
+              numbers += '<li data-target="#carousel-picture" data-slide-to="' + i + '"></li>';
+              items += '<div class="item"><img src="' + pics[i] + '" alt=""></div>';
+            }
+          }
+          html += '<div id="carousel-picture" class="carousel slide" data-ride="carousel">';
+          html += '<ol class="carousel-indicators">';
+          html += numbers;
+          html += '</ol>';
+          html += '<div class="carousel-inner">';
+          html += items;
+          html += '</div>';
+          html += '<a class="left carousel-control" href="#carousel-picture" data-slide="prev">';
+          html += '<span class="glyphicon glyphicon-chevron-left"></span>';
+          html += '</a>';
+          html += '<a class="right carousel-control" href="#carousel-picture" data-slide="next">';
+          html += '<span class="glyphicon glyphicon-chevron-right"></span>';
+          html += '</a>';
+          html += '</div><div class="clearfix" style="height:15px;"></div>';
+          $('.picture_list').html(html);
+          $('#carousel-picture').carousel({
+            interval: 4000
+          });
+        }
+        if(files.length == 0){
+          $('.files_container').hide();
+        }else{
+          $('.files_container').show();
+          html = '<ul class="pagination">';
+          for(var i=0;i<files.length;i++){
+            html += '<li><a href="' + files[i].path + '"><span class="glyphicon glyphicon-save"></span> ' + files[i].name + '</a></li>';
+          }
+          html += '</ul>';
+          $('.picture .files_list').html(html);
+          init();
+        }
+      }else{
+        $('.files_container').show();
+        $('.picture .picture_list').html('<div class="thumbnail">' + no_picture + '</div>');
+        $('.picture .files_list').html(res.message);
+        //alertBox(res.message, '');
+      }
+      $('.picture').show(400);
+    }
+  });
+}
+function alertBox(msg, code){
+  bootbox.dialog({
+    message: msg,
+    title: 'Notice',
+    onEscape: function() {
+    },
+    buttons: {
+      confirm: {
+        label: 'OK',
+        className: 'btn-sm btn-default',
+        callback: function() {
+          if(code != '')
+            eval(code);
+        }
+      }
+    }
+  });
+}
+</script>
+<% end %>
+<div class="center-block container">
+  <ul class="nav nav-tabs hide2" id="tabs" style="padding-top:5px;">
+    <% @projects.each_with_index do |project, i| %>
+    <li><a href="#<%= project %>" onclick="getYearlist('<%= project %>');" data-toggle="tab">&nbsp;&nbsp;&nbsp;&nbsp;<strong><%= project.upcase %></strong>&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+    <% end %>
+  </ul>
+
+  <div class="row" style="margin-top:15px;">
+
+    <div class="col-sm-2">
+      <div class="hide2 datelist">
+        <div class="list-group">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-10">
+      <div class="hide2 picture">
+        <div class="panel panel-default">
+          <div class="panel-heading"><span class="glyphicon glyphicon-picture"></span> Pictures:</div>
+          <div class="panel-body picture_list">
+          </div>
+        </div>
+        <div class="panel panel-default files_container">
+          <div class="panel-heading"><span class="glyphicon glyphicon-circle-arrow-down"></span> Files:</div>
+          <div class="panel-body files_list">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div class="loading">
+  <div class="bg"></div>
+  <div class="pic">
+  <table width="100%" height="80%">
+    <tr><td><%= image_tag 'loading.gif', :alt => 'loading' %></td></tr>
+  </table>
+  </div>
+</div>

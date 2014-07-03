@@ -1,0 +1,912 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 260ms (Views: 228.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 15:04:36 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:04:37 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 15:04:37 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 15:04:37 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 15:05:58 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 15:05:58 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:05:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 15:05:59 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 15:10:45 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 15:10:47 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 15:10:49 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:49 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 15:10:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 15:10:50 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:31:56 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 162ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:31:56 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:31:57 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:33:36 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:33:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:33:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:33:36 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:33:36 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:33:37 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:34:25 +0800
+
+
+Started GET "/datelist?project=%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:34:28 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:34:42 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:34:44 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:01 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:35:03 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=ke-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:35:05 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blank.jpg" for 127.0.0.1 at 2014-06-26 16:35:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:35:12 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:13 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:35:15 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=ke-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:35:16 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:35:22 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:35:24 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=ke-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:35:26 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:41:22 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 77ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:41:23 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:41:38 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:41:41 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=ke-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:41:42 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=ke-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:49:58 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blank.jpg" for 127.0.0.1 at 2014-06-26 16:49:58 +0800
+
+
+Started GET "/picture?project=caocao&datetime=ke-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:50:21 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blank.jpg" for 127.0.0.1 at 2014-06-26 16:50:21 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:51:29 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:51:30 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:51:33 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=ke-2014" for 127.0.0.1 at 2014-06-26 16:51:34 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"ke-2014"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blank.jpg" for 127.0.0.1 at 2014-06-26 16:51:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 16:52:14 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 16:52:16 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 16:52:17 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 18ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 21:53:42 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 121ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 21:53:43 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 21:53:46 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 21:53:47 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 16ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.min.css?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/perfect-scrollbar-0.4.10.with-mousewheel.min.js?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-06-26 22:01:02 +0800
+
+
+Started GET "/datelist?project=caocao" for 127.0.0.1 at 2014-06-26 22:01:05 +0800
+Processing by WelcomeController#datelist as JSON
+  Parameters: {"project"=>"caocao"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-untitled+folder" for 127.0.0.1 at 2014-06-26 22:01:06 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-untitled folder"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 22:01:08 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 13ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-untitled+folder" for 127.0.0.1 at 2014-06-26 22:01:09 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-untitled folder"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-%E3%80%8A%E6%9B%B9%E6%93%8D%E4%B9%8B%E9%87%8E%E6%9C%9B%E3%80%8B%E8%B6%85%E8%8F%AF%E9%BA%97%E6%97%A5%E7%B3%BB%E4%B8%89%E5%9C%8B%E6%89%8B%E6%A9%9F%E9%81%8A%E6%88%B2%E5%A4%A7%E4%BD%9C%EF%BC%81%E4%B8%80%E6%89%8B%E6%8E%8C%E6%8F%A1%E4%B8%89%E5%9C%8B%E8%8F%AF%E9%BA%97%E7%8C%9B%E5%B0%87%E8%8B%B1%E9%9B%84%EF%BC%81%E4%B8%8B%E4%B8%80%E6%88%B0%EF%BC%81%E8%8B%B1%E9%9B%84%E7%94%B1%E4%BD%A0%E4%BE%86%E7%95%B6%EF%BC%81_files" for 127.0.0.1 at 2014-06-26 22:01:15 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-《曹操之野望》超華麗日系三國手機遊戲大作！一手掌握三國華麗猛將英雄！下一戰！英雄由你來當！_files"}
+Completed 200 OK in 16ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/picture?project=caocao&datetime=2014-untitled+folder" for 127.0.0.1 at 2014-06-26 22:02:20 +0800
+Processing by WelcomeController#picture as JSON
+  Parameters: {"project"=>"caocao", "datetime"=>"2014-untitled folder"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
